@@ -22,8 +22,8 @@ class OBJECT_PT_xfr_uvs(bpy.types.Panel):
         row = col.row()
         row.prop(props, "tgt_coll", text="Target")
         row.prop(props, "tgt_coll_recur", text="")
-        col.prop(props, "clear_uvs")
-        col.prop(props, "compare_enum")
+        col.prop(props, "clear_uvs", text="Clear Target UV Maps")
+        col.prop(props, "compare_enum", text="Compare Type")
         col.prop(props, "objname_sep", text="Separator")
         op = col.operator("mesh.xfr_uvs", icon='MESH_CUBE', text="Transfer UVs")
         op.name_compare_type = props.compare_enum
