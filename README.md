@@ -1,4 +1,4 @@
-# UV Map Transfer
+# UV Map Transfer Blender 3.4
 
 Simple UI to copy UV Maps between objects with matching naming conventions.
 
