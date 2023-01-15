@@ -7,8 +7,8 @@ bl_info = {
     "description": "",
     "warning": "",
     "wiki_url": "",
-    "category": "Development",
-    "support":"TESTING"
+    "category": "UV",
+    # "support":"TESTING"
 }
  
 import sys
